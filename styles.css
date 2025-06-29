@@ -1,0 +1,123 @@
+body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+      background: #fff;
+    }
+
+    header.hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #111;
+      color: #fff;
+    }
+
+    header.hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+    }
+
+    .cta-buttons a {
+      display: inline-block;
+      margin: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #e63946;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .cta-buttons a:hover {
+      background: #d62828;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    #about img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+
+    #about .bio {
+      margin-top: 1rem;
+    }
+
+    #portfolio .filters button {
+      margin: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: #ccc;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    #portfolio .portfolio-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .portfolio-gallery .item img {
+      width: 100%;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.9);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    #services ul li {
+      margin: 0.5rem 0;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background: #1d3557;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    footer nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
